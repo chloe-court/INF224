@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Client",
+      "request": "launch",
+      "mainClass": "swing.Client",
+      "projectName": "tp1_7eb71b91"
+    },
+    {
+      "type": "java",
+      "name": "Window",
+      "request": "launch",
+      "mainClass": "swing.Window",
+      "projectName": "tp1_7eb71b91"
+    },
+    {
+      "name": "(lldb) Lancer",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "entrer le nom du programme, par exemple ${workspaceFolder}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/chloecourt/Desktop/Telecom/creneauxd/inf224/tp1-final/cpp",
+      "program": "/Users/chloecourt/Desktop/Telecom/creneauxd/inf224/tp1-final/cpp/build/Debug/outDebug"
+    }
+  ]
+}
